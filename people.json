@@ -1,0 +1,11 @@
+[
+  {"name": "Theodore Walton","age": 19,"isMarried": true,"weigth": 60.5,"childrens": null},
+  {
+    "name": "Lola Lane",
+    "age": 5
+  },
+  {
+    "name": "Nina Mendez",
+    "age": 23
+  }
+]

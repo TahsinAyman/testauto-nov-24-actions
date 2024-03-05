@@ -5,3 +5,4 @@ public class Main {
 }
 // javac Main.java -> Build / Compilation
 // java Main -> Deploy / Execution
+// { Build (Compile) -> Deploy (Execution)} -> Pipeline (Jenkins), Workflow
