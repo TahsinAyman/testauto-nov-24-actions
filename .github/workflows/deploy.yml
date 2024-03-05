@@ -6,6 +6,11 @@ on:
       - main
 
 jobs:
+  version_checker:
+    runs-on: ubuntu-latest
+    steps:
+      - run: java --version
+        shell: bash
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
