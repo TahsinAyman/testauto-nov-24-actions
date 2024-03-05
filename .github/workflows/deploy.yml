@@ -9,6 +9,10 @@ jobs:
   version_checker:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin' # See 'Supported distributions' for available options
+          java-version: '17'
       - run: java --version
         shell: bash
   build_and_deploy:
